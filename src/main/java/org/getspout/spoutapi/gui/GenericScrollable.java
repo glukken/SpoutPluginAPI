@@ -24,7 +24,7 @@ import org.bukkit.plugin.Plugin;
 
 import org.getspout.spoutapi.packet.PacketUtil;
 
-public abstract class GenericScrollable extends GenericControl implements Scrollable {
+public class GenericScrollable extends GenericControl implements Scrollable {
 	protected ScrollBarPolicy sbpVert;
 	protected ScrollBarPolicy sbpHoriz = sbpVert = ScrollBarPolicy.SHOW_IF_NEEDED;
 	protected int innerSizeHoriz = 0, innerSizeVert = 0;
